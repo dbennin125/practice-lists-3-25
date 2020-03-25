@@ -1,0 +1,47 @@
+* {
+box-sizing: border-box;
+}
+
+.dog-top {
+    text-align: center;
+}
+
+.dog-card {
+    width: 200px;
+    height: 250px;
+    border: 3px dotted red;
+    border-radius: 3px;
+    box-shadow: sienna;
+    text-align: center;
+}
+
+.dog-pic {
+    height: 125px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.dog-content {
+    padding: 2px;
+}
+
+.dog-name {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-style: italic;
+    
+}
+
+.word-dog {
+    font-size: 12px;
+    height: 100px;
+    overflow-y: auto;
+}
+
+.list-dog {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    list-style: none;
+    
+}
